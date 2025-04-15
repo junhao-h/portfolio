@@ -872,7 +872,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Deploying an unreal application on the web that can be streamed to all device using pixel streaming.",
+        "Integrate web application with Matterport",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -900,23 +900,9 @@ export const singleProjectData = {
         {
           id: 3,
           details:
-            "While Matterport camera can capture the indoors easily, it struggle with capturing the outdoor facade for the building. Hence we have other strategies to show off the external buildings.",
+            "While Matterport camera can capture the indoors easily, it struggle with capturing the outdoor facade for the building. Hence the strategy to display the external facade is by diving into Matterport's API.",
         },
-        {
-          id: 4,
-          details:
-            "I have engaged an external vendor to fly a drone to take 360 picture of all 6 SIT buildings, while applying for all the necessary permits to make this happen.",
-        },
-        {
-          id: 5,
-          details:
-            "I also get some students to help create 3D models for the various SIT buildings, I then have to research on how to integrate the 3D models into the webpage by code using Matterport SDK.",
-        },
-        {
-          id: 6,
-          details:
-            "I manage to find a matterport SDK example to modify from to achieve the facade model integration with the matteport space.",
-        },
+        
       ],
     },
     RelatedProject: {
